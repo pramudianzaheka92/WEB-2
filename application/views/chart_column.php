@@ -52,7 +52,7 @@ Highcharts.chart('container', {
     series: [
     			<?php foreach($data_kota as $kota):?>
     			{
-			        name: '<?php echo $kota['nama'];?>',
+			        name: '<?php echo $kota['nama_kota'];?>',
 			        data: [<?php echo $kota['penduduk'];?>]
 				},
 				<?php endforeach?>

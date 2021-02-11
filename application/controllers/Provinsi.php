@@ -88,12 +88,6 @@ class Provinsi extends CI_Controller {
 			
 			$response = 'file telah berhasil di upload, file name : '.$file_name;
 
-			$output = array(
-								'judul' => 'Tambah Provinsi',
-								'response' => $response
-							);
-			$this->load->view('provinsi_insert', $output);
-
 			//mengirim data ke model
 			$input = array(
 							'nama' => $nama,

@@ -8,7 +8,7 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td><img src="<?php echo site_url('../upload_folder/'.$data_provinsi_single['gambar'])?>" height="70" width="70">
+			<td><img src="<?php echo site_url('../ci/upload_folder/'.$data_provinsi_single['gambar'])?>" height="70" width="70">
 		</tr>
 		<tr>
 			<td>Gambar</td>
